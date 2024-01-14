@@ -1,0 +1,14 @@
+.Navigation{
+    background-color: antiquewhite;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.Navigation > button{
+    margin: 5px;
+}
+
+*{
+    background-color: dimgray;
+}
