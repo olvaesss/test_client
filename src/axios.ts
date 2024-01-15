@@ -1,3 +1,5 @@
-import axios, { Axios } from "axios";
+import axios from "axios";
 
-let baseURL = 'http://localhost:3000'
+const api = axios.create({
+    baseURL:'http://localhost:4000'
+})

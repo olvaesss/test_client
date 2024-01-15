@@ -1,14 +1,24 @@
 .Navigation{
-    background-color: antiquewhite;
+    background-color: beige;
     display: flex;
     width: auto;
-    height: auto;
-}
-
-.Navigation > button{
-    margin: 5px;
+    height: 70px;
+    border-bottom: 2px black solid;
 }
 
 *{
-    background-color: dimgray;
+    background-color: beige;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+h1{
+    border-bottom: 2px black solid;
+}
+.dashboard_container_1{
+    display:grid;   
+    grid-template-columns: 50% 50%;
 }

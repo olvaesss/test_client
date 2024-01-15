@@ -5,15 +5,9 @@ const Navigate = ()=>{
     return(
         <div className="Navigation">
         <nav>
-            <button>
-                <Link to="/dashboard">Home</Link>
-            </button>
-            <button>
-                <Link to="/employees">About</Link>
-            </button>
-            <button>
-                <Link to="/departments">Contacts</Link>
-            </button>
+                <Link to="/dashboard"><button>Dashboard</button></Link>
+                <Link to="/employees"><button>Employees</button></Link>
+                <Link to="/departments"><button>Departments</button></Link>
         </nav>
       </div>
     )
